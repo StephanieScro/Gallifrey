@@ -2,7 +2,6 @@ import  React, { useState } from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCode, faBars } from '@fortawesome/free-solid-svg-icons';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 export interface IProps {
     
@@ -13,7 +12,7 @@ export const TopNavBar: React.FC = () => {
   return <div className="flex flex-row">
   {navBar && 
 <div className="w-25 vertical-nav bg-white" id="sidebar">
-
+  
   <p className="text-gray font-weight-bold text-uppercase px-3 small pb-4 mb-0">Main</p>
 
   <ul className="nav flex-column bg-white mb-0">
